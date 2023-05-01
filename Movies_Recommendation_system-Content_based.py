@@ -6,7 +6,8 @@ import pandas.core.indexes.numeric
 
 movie_list = pickle.load(open('movies.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
-st.title("Movie Recommendation by Ayodeji Ajidahun")
+st.title("Movie Recommendation System")
+st.caption("Built by :blue[Ayodeji Ajidahun]")
 selected_movie_name=st.selectbox("Select a Movie Name",movie_list['title'])
 
 def recommend(movie):
