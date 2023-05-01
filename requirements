@@ -1,0 +1,4 @@
+numpy==1.22.4
+pandas==1.4.2
+sklearn==23.1.2
+nltk==3.8.1
