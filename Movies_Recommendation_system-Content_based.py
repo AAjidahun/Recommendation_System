@@ -3,8 +3,8 @@ import pickle
 import requests
 import pandas 
 
-movie_list = pickle.load(open('movies.pkl','rb'))
-similarity = pickle.load(open('similarity.pkl','rb'))
+movie_list = pickle.load(open(r'movies.pkl','rb'))
+similarity = pickle.load(open(r'similarity.pkl','rb'))
 st.title("Movie Recommendation")
 selected_movie_name=st.selectbox("Enter Movie Name",movie_list['title'])
 
