@@ -2,7 +2,7 @@ import streamlit as st
 import pickle 
 import requests
 import pandas 
-import pandas.core.indexes
+import pandas.core.indexes.numeric
 
 movie_list = pickle.load(open('movies.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
